@@ -39,7 +39,7 @@ if letter == 'a'
 
 ```
 
-() 
+( ) 
 ```ruby
 if letter = 'a'
     true
@@ -67,7 +67,7 @@ else
    "not a vowel"
 end
 ```
-() vowel (X) not a vowel
+( ) vowel (X) not a vowel
 
 ?: The method `vowels_with_case` takes in a letter as an argument and uses a case statement to determine if that letter is a vowel. 
 
@@ -93,7 +93,7 @@ end
 
 Which keyword correctly replaces `< fill me in! > `?
 
-() `if` () `elsif` (X) `when` () `while`
+( ) `if` ( ) `elsif` (X) `when` ( ) `while`
 
 ?: Which of the following methods would correctly return `true` when given the letter "o" as an argument?
 
@@ -104,14 +104,14 @@ def vowels_with_if_single_line(letter)
 end
 ```
 
-() 
+( ) 
 ```ruby
 def vowels_with_if_single_line(letter)
   true if letter == "a" && letter == "e" && letter == "i" && letter == "o" && letter == "u"
 end
 ```
 
-() 
+( ) 
 ```ruby
 def vowels_with_if_single_lineTESTING(letter)
   true if letter == "a" || if letter == "e" || if letter == "i" || if letter == "o" || if letter == "u"
