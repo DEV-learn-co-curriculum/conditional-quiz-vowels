@@ -96,8 +96,8 @@ Which keyword correctly replaces `< fill me in! > `?
 () `if` () `elsif` (X) `when` () `while`
 
 ?: Which of the following methods would correctly return `true` when given the letter "o" as an argument?
-(X) 
 
+(X)
 ```ruby
 def vowels_with_if_single_line(letter)
   true if letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"
@@ -105,7 +105,6 @@ end
 ```
 
 () 
-
 ```ruby
 def vowels_with_if_single_line(letter)
   true if letter == "a" && letter == "e" && letter == "i" && letter == "o" && letter == "u"
@@ -113,7 +112,6 @@ end
 ```
 
 () 
-
 ```ruby
 def vowels_with_if_single_lineTESTING(letter)
   true if letter == "a" || if letter == "e" || if letter == "i" || if letter == "o" || if letter == "u"
