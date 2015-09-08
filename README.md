@@ -1,17 +1,17 @@
 #Quiz: Practicing Conditionals with Vowels
 
 ##Objectives
-You will answer a series of multiple choice questions to help you practice the following: 
+You will answer a series of multiple choice questions to help you practice the following:
 
 1. Flow control and the use of if/else statements
-3. Flow control and the use of case statements
-4. Using comparative operators
+2. Flow control and the use of case statements
+3. Using comparative operators
 
 ???
 
 # Conditional Vowels
 
-?: We're building a method, `vowels_with_if_elsif` that will take in a letter and return `true` if that letter is a vowel and `false` if that letter is a consonant. 
+?: We're building a method, `vowels_with_if_elsif` that will take in a letter and return `true` if that letter is a vowel and `false` if that letter is a consonant.
 
 ```ruby
 def vowels_with_if_elsif(letter)
@@ -21,7 +21,7 @@ end
 
 Which of the following is the correct implementation of if/elsif/else?
 
-(X) 
+(X)
 ```ruby
 if letter == 'a'
     true
@@ -36,10 +36,8 @@ if letter == 'a'
   else
     false
   end
-
 ```
-
-( ) 
+( )
 ```ruby
 if letter = 'a'
     true
@@ -62,9 +60,9 @@ if letter = 'a'
 letter = "b"
 
 if letter == "a" || "e" || "i" || "o" || "u"
-	"vowel"
+  "vowel"
 else
-   "not a vowel"
+  "not a vowel"
 end
 ```
 ( ) vowel (X) not a vowel
@@ -88,7 +86,6 @@ def vowels_with_case(letter)
     false
   end
 end
-
 ``` 
 
 Which keyword correctly replaces `< fill me in! > `?
@@ -103,18 +100,16 @@ def vowels_with_if_single_line(letter)
   true if letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"
 end
 ```
-
-( ) 
+( )
 ```ruby
 def vowels_with_if_single_line(letter)
   true if letter == "a" && letter == "e" && letter == "i" && letter == "o" && letter == "u"
 end
 ```
-
-( ) 
+( )
 ```ruby
 def vowels_with_if_single_lineTESTING(letter)
-  true if letter == "a" || if letter == "e" || if letter == "i" || if letter == "o" || if letter == "u"
+  true if letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"
 end
 ```
 
